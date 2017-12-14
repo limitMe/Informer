@@ -50,7 +50,7 @@ namespace JsonMonitor
                     }
                     
                     Console.WriteLine("Finished iPhone X search, found in " + avaliableCount.ToString() + " stores near Sydney");
-                    result.title = "Hey, currently there is " + avaliableCount.ToString() + " stores with iPhone X in Sydney";
+                    result.title = "Hey, currently there are " + avaliableCount.ToString() + " stores with iPhone X in Sydney";
                 } else {
                     Console.WriteLine("Server returned unacceptable data, session aborted.");
                 }

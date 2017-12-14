@@ -38,8 +38,8 @@ namespace JsonMonitor
             MailMessage mailMessage = new MailMessage();
             mailMessage.From = new MailAddress(senderAddress);
             mailMessage.To.Add(this.distinationAddress);
-            mailMessage.Body = title;
-            mailMessage.Subject = body;
+            mailMessage.Body = body;
+            mailMessage.Subject = title;
             client.Send(mailMessage);
         }
     }
